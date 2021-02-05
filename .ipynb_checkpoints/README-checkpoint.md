@@ -13,10 +13,10 @@ We consider 6 meal classes.
 
 using keras and tensorflow.
 
-![amala](amala.jpeg) 
-![eba](eba.jpeg)
-![efo](efo.jpeg)
-![ewedu](ewedu.jpeg)
+![amala](./images/amala.jpeg) 
+![eba](./images/eba.jpeg)
+![efo](./images/efo.jpeg)
+![ewedu](./images/ewedu.jpeg)
 
 Check out the app using this link: https://shoe-size-predict.herokuapp.com/
 
