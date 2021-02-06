@@ -1,2 +1,4 @@
 .ipynb-check*
 .DS_Store
+.gitignore
+__pycache__

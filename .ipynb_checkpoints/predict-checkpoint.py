@@ -6,6 +6,9 @@ from sklearn.preprocessing import LabelEncoder
 from tensorflow.keras.models import Sequential
 from encoder import le
 
+import warnings
+warnings.filterwarnings("ignore")
+
 print("Loading model...")
 
 # load the model from disk
@@ -29,6 +32,7 @@ img = np.ravel(mpimg.imread(img_add))
 image_list.append(img)
 df_1 = pd.DataFrame(image_list)
 
+print('Now Making prediction...')
 
 #model prediction
 arr = le.inverse_transform([np.argmax(loaded_model.predict(df_1))])
