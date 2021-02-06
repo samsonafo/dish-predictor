@@ -21,7 +21,7 @@ print(".")
 #get input from user
 img_add = input("Now input the path to your image: ")
 
-
+#transform image into array
 image_list = []
 image_address = img_add
 
@@ -29,13 +29,10 @@ img = np.ravel(mpimg.imread(img_add))
 image_list.append(img)
 df_1 = pd.DataFrame(image_list)
 
-#model prediction
-loaded_model.predict(df_1)
-
 
 #model prediction
-#arr = le.inverse_transform([np.argmax(loaded_model.predict(df_1))])
+arr = le.inverse_transform([np.argmax(loaded_model.predict(df_1))])
 
 #print model result
-#for x in arr:
-    #print('This is {}. Enjoy your meal'.format(x))
+for x in arr:
+    print('This is {}. Enjoy your meal'.format(x))
