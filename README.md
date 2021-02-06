@@ -18,8 +18,6 @@ using keras and tensorflow.
 ![efo](./markdown_images/efo.jpeg)
 ![ewedu](./markdown_images/ewedu.jpeg)
 
-Check out the app using this link: https://shoe-size-predict.herokuapp.com/
-
 ## Files
 
 1. data - contains all images for model development
