@@ -13,15 +13,23 @@ We consider 6 meal classes.
 
 using keras and tensorflow.
 
-![amala](./images/amala.jpeg) 
-![eba](./images/eba.jpeg)
-![efo](./images/efo.jpeg)
-![ewedu](./images/ewedu.jpeg)
+![amala](./markdown_images/amala.jpeg) 
+![eba](./markdown_images/eba.jpeg)
+![efo](./markdown_images/efo.jpeg)
+![ewedu](./markdown_images/ewedu.jpeg)
 
 Check out the app using this link: https://shoe-size-predict.herokuapp.com/
 
 ## Files
 
-dish_predictor.ipynb: data preparation and model development
+model_development.ipynb: data preparation and model development
 
-dishes.ipynb: Model test script.
+## Predict
+
+To make predictions on new images, simply run:
+
+```bash
+make predict
+```
+
+
